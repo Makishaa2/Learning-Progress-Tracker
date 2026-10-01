@@ -1,0 +1,24 @@
+/* ==========================================================================
+   STUDYOS – MAIN CSS ENTRY POINT
+   Import order matters: tokens → base → layout → components → pages
+   ========================================================================== */
+
+@import './styles/variables.css';
+@import './styles/base.css';
+@import './styles/layout.css';
+@import './styles/utilities.css';
+
+/* Components */
+@import './styles/components/sidebar.css';
+@import './styles/components/button.css';
+@import './styles/components/card.css';
+@import './styles/components/badge.css';
+@import './styles/components/form.css';
+@import './styles/components/modal.css';
+@import './styles/components/empty.css';
+
+/* Pages */
+@import './styles/pages/dashboard.css';
+
+/* Legacy page styles — migrating incrementally to the new system */
+@import './index.css';
